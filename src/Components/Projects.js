@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="flex flex-col sticky z-10  bg-black px-[80px] py-[100px] gap-[56px]"
+      className="flex flex-col sticky z-10  bg-black md:px-[80px] px-[20px] py-[100px] gap-[56px]"
     >
       <h1 className="md:text-[100px] text-[60px] text-white font-bold">
         /Projects
