@@ -18,10 +18,10 @@ const Projects = () => {
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[10px]">
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100">
           <a href="https://anugrahsahabatjaya.com/" target="_blank">
-            <div className="flex flex-col lg:w-[400px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
+            <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto1}
-                className="h-[380px] lg:w-[400px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
+                className="h-[380px] md:w-[350px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">
@@ -42,10 +42,10 @@ const Projects = () => {
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
           <a href="https://pokemon-hazel-omega.vercel.app/" target="_blank">
-            <div className="flex flex-col lg:w-[400px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
+            <div className="flex flex-col lg:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto2}
-                className="h-[380px] lg:w-[400px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
+                className="h-[380px] md:w-[350px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">
@@ -69,10 +69,10 @@ const Projects = () => {
             href="https://final-project-react-kappa.vercel.app/"
             target="_blank"
           >
-            <div className="flex flex-col lg:w-[400px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
+            <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto3}
-                className="h-[380px] lg:w-[400px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
+                className="h-[380px] md:w-[350px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">
@@ -93,10 +93,10 @@ const Projects = () => {
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
           <a href="https://mading-jwp.vercel.app/homeadmin" target="_blank">
-            <div className="flex flex-col lg:w-[400px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
+            <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto4}
-                className="h-[380px] lg:w-[400px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
+                className="h-[380px] md:w-[350px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">
@@ -117,10 +117,10 @@ const Projects = () => {
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
           <a href="https://yflix-web-streaming.vercel.app/" target="_blank">
-            <div className="flex flex-col lg:w-[400px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
+            <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto5}
-                className="h-[380px] lg:w-[400px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
+                className="h-[380px] md:w-[350px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">
@@ -139,10 +139,10 @@ const Projects = () => {
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
           <a href="https://music-io-web-music.vercel.app/" target="_blank">
-            <div className="flex flex-col lg:w-[400px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
+            <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto6}
-                className="h-[380px] lg:w-[400px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
+                className="h-[380px] md:w-[350px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">

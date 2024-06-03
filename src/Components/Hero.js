@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <div className="sticky bg-black md:h-screen h-[700px] z-10">
-      <div className="flex items-center md:h-[650px] h-[650px] sticky justify-center bg-black overflow-hidden z-10 ">
+      <div className="flex items-center md:h-[650px] h-[650px] sticky justify-center bg-black overflow-hidden z-10">
         <div className="w-full font-medium text-6xl md:text-7xl [text-wrap:balance] text-transparent text-white text-left flex justify-center items-center flex-col">
           <div className="absolute italic text-white/[.05] z-0 md:text-[750px] text-[200px] font-extrabold">
             Hello
