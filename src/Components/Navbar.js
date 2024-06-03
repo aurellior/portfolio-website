@@ -28,7 +28,7 @@ const Navbar = () => {
 
   const scrollToBottom = () => {
     window.scrollTo({
-      top: 4000,
+      top: 7500,
       behavior: "smooth",
     });
   };
