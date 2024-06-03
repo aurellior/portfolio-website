@@ -104,7 +104,7 @@ const Projects = () => {
                     Mading JWP
                   </h1>
                   <div className="text-white text-[14px] bg-[#ED4C51] rounded-full py-[8px] px-[14px] flex items-center">
-                    <p>Lembaga Sertifikasi Profesi (LSP)</p>
+                    <p>Lembaga Sertifikasi Profesi</p>
                   </div>
                 </div>
                 <p className="text-[#8B8689] md:text-[18px] text-[14px]">
