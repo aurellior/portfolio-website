@@ -9,8 +9,8 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer id="contact" className="sticky  bg-[#333132] bottom-0 z-0">
-      <div className="px-[80px] py-[100px]">
-        <div className="flex flex-row items-center mb-[100px] gap-[28px] ">
+      <div className="md:px-[80px] px-[28px] md:py-[100px] py-[50px]">
+        <div className="flex flex-row items-center mb-[60px] md:mb-[100px] gap-[28px] ">
           <h1 className="md:text-[90px] text-[40px] font-bold text-[#E3E4DC]">
             CONTACT ME
           </h1>
@@ -61,7 +61,7 @@ const Footer = () => {
       </div>
 
       <div className="font-roboto relative flex overflow-x-hidden mt-auto ">
-        <div className="py-5 animate-marquee whitespace-nowrap text-[90px] mx-4 font-extrabold text-[#E3E4DC]">
+        <div className="py-5 animate-marquee whitespace-nowrap md:text-[90px] text-[60px] mx-4 font-extrabold text-[#E3E4DC]">
           <span>AR //</span>
           <span>AR //</span>
           <span>AR //</span>
@@ -75,7 +75,7 @@ const Footer = () => {
           <span>AR //</span>
           <span>AR //</span>
         </div>
-        <div className="py-5 absolute top-0 animate-marquee2 whitespace-nowrap text-[90px] mx-4 font-extrabold text-[#E3E4DC]">
+        <div className="py-5 absolute top-0 animate-marquee2 whitespace-nowrap md:text-[90px] text-[60px] mx-4 font-extrabold text-[#E3E4DC]">
           <span>AR //</span>
           <span>AR //</span>
           <span>AR //</span>
