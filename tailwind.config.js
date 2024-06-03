@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       animation: {
         "text-slide-2":
@@ -21,6 +22,11 @@ module.exports = {
           "text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
         "text-slide-8":
           "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
+        marquee: "marquee 60s linear infinite",
+        marquee2: "marquee2 60s linear infinite",
+        marquee3: "marquee3 2s linear infinite",
+        marquee4: "marquee4 2s linear infinite",
+        rotate: "rotate 8s linear infinite",
       },
       keyframes: {
         "text-slide-2": {
@@ -162,6 +168,26 @@ module.exports = {
           "100%": {
             transform: "translateY(-88.88%)",
           },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marquee2: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+        marquee3: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marquee4: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+        rotate: {
+          "0%": { rotate: "0deag" },
+          "100%": { rotate: "1turn" },
         },
       },
     },
