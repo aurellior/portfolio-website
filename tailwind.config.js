@@ -27,8 +27,26 @@ module.exports = {
         marquee3: "marquee3 2s linear infinite",
         marquee4: "marquee4 2s linear infinite",
         rotate: "rotate 8s linear infinite",
+        typing: "typing 2.5s steps(20)  alternate  , blink .7s infinite",
       },
       keyframes: {
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "white",
+          },
+        },
         "text-slide-2": {
           "0%, 40%": {
             transform: "translateY(0%)",
@@ -192,5 +210,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animation-delay")],
 };

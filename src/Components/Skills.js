@@ -20,44 +20,44 @@ const Skills = () => {
           //SKILLS//
         </h1>
         <div className="grid md:grid-cols-4 grid-cols-1 gap-[70px] z-10">
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <FaHtml5 />
               <h1 className="text-white text-[24px] font-medium">HTML</h1>
             </div>
           </IconContext.Provider>
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <FaCss3Alt />
               <h1 className="text-white text-[24px] font-medium">CSS</h1>
             </div>
           </IconContext.Provider>
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <IoLogoJavascript />
               <h1 className="text-white text-[24px] font-medium">Javascript</h1>
             </div>
           </IconContext.Provider>
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <RiReactjsFill />
               <h1 className="text-white text-[24px] font-medium">ReactJS</h1>
             </div>
           </IconContext.Provider>
 
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <FaGitAlt />
               <h1 className="text-white text-[24px] font-medium">Git</h1>
             </div>
           </IconContext.Provider>
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <RiTailwindCssFill />
               <h1 className="text-white text-[24px] font-medium">Tailwind</h1>
             </div>
           </IconContext.Provider>
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <DiVisualstudio />
               <h1 className="text-white text-[24px] font-medium">
@@ -65,7 +65,7 @@ const Skills = () => {
               </h1>
             </div>
           </IconContext.Provider>
-          <IconContext.Provider value={{ color: "white", size: "100px" }}>
+          <IconContext.Provider value={{ color: "white", size: "80px" }}>
             <div className="flex flex-col justify-center items-center w-[228px] gap-[12px]">
               <FaFigma />
               <h1 className="text-white text-[24px] font-medium">Figma</h1>

@@ -1,10 +1,14 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { IconContext } from "react-icons";
+
 import { CgMail } from "react-icons/cg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { TbBrandValorant } from "react-icons/tb";
+import Text1 from "../img/text1.png";
+import Text2 from "../img/text2.png";
 
 const Footer = () => {
   return (
@@ -60,34 +64,92 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="font-roboto relative flex overflow-x-hidden mt-auto ">
-        <div className="py-5 animate-marquee whitespace-nowrap md:text-[90px] text-[60px] mx-4 font-extrabold text-[#E3E4DC]">
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
+      <div className="relative flex  overflow-x-hidden mt-auto ">
+        <div className="flex items-center py-5  animate-marquee whitespace-nowrap md:text-[60px] text-[60px] font-extrabold text-[#E3E4DC]">
+          <span>
+            <img src={Text1} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>
+          </span>
+
+          <span>
+            <img src={Text2} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>{" "}
+          </span>
+          <span>
+            <img src={Text1} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>{" "}
+          </span>
+          <span>
+            <img src={Text2} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>{" "}
+          </span>
         </div>
-        <div className="py-5 absolute top-0 animate-marquee2 whitespace-nowrap md:text-[90px] text-[60px] mx-4 font-extrabold text-[#E3E4DC]">
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
-          <span>AR //</span>
+
+        <div className="flex items-center py-5 absolute top-0 animate-marquee2 whitespace-nowrap md:text-[60px] text-[60px] mx-4 font-extrabold text-[#E3E4DC]">
+          <span>
+            <img src={Text1} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>
+          </span>
+          <span>
+            <img src={Text2} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>{" "}
+          </span>
+          <span>
+            <img src={Text1} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>{" "}
+          </span>
+          <span>
+            <img src={Text2} className="w-[400px]" />{" "}
+          </span>
+          <span>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <div className="flex items-center px-[20px]">
+                <TbBrandValorant />
+              </div>
+            </IconContext.Provider>{" "}
+          </span>
         </div>
       </div>
     </footer>

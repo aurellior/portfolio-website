@@ -4,18 +4,18 @@ import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <div className="sticky bg-black md:h-screen h-[700px] z-10">
-      <div className="flex items-center md:h-[650px] h-[650px] sticky justify-center bg-black overflow-hidden z-10">
+      <div className="flex items-center 2xl:h-[650px] md:h-[600px] h-[650px] sticky justify-center bg-black overflow-hidden z-10">
         <div className="w-full font-medium text-6xl md:text-7xl [text-wrap:balance] text-transparent text-white text-left flex justify-center items-center flex-col">
-          <div className="absolute italic text-white/[.05] z-0 md:text-[750px] text-[200px] font-extrabold">
+          <div className="absolute italic text-white/[.05] z-0 2xl:text-[750px] md:text-[700px] text-[200px] font-extrabold">
             Hello
           </div>
           <div className="z-10 md:text-[64px] text-[28px]">
             <h1 className="">Hello, I'm Aurellio</h1>
-            <h1>
+            <h1 className="flex flex-row gap-3">
               a
-              <span className="text-[#ED4C51] font-bold ">
+              <h1 className="text-[#ED4C51] font-bold animate-typing  overflow-hidden whitespace-nowrap border-r-4 border-r-white ">
                 {"<frontendDeveloper/>"}
-              </span>
+              </h1>
             </h1>
           </div>
           <a
