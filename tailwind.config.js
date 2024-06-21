@@ -3,6 +3,17 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      textFillColor: (theme) => theme("borderColor"),
+      textStrokeColor: (theme) => theme("borderColor"),
+      textStrokeWidth: (theme) => theme("borderWidth"),
+      paintOrder: {
+        fsm: { paintOrder: "fill stroke markers" },
+        fms: { paintOrder: "fill markers stroke" },
+        sfm: { paintOrder: "stroke fill markers" },
+        smf: { paintOrder: "stroke markers fill" },
+        mfs: { paintOrder: "markers fill stroke" },
+        msf: { paintOrder: "markers stroke fill" },
+      },
       fontFamily: {
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
@@ -27,9 +38,14 @@ module.exports = {
         marquee3: "marquee3 2s linear infinite",
         marquee4: "marquee4 2s linear infinite",
         rotate: "rotate 8s linear infinite",
-        typing: "typing 2.5s steps(20)  alternate  , blink .7s infinite",
+        typing: "typing 2.5s steps(20)  alternate , blink .7s infinite",
+        loop: "loop 50s linear infinite",
       },
       keyframes: {
+        loop: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
         typing: {
           "0%": {
             width: "0%",
@@ -210,5 +226,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animation-delay")],
+  plugins: [
+    require("tailwindcss-text-fill-stroke"),
+    require("tailwindcss-animation-delay"),
+  ],
 };
