@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="sticky bg-[#333132] overflow-hidden z-10 px-[80px] py-[100px]"
+      className="sticky bg-[#1D1D1D] overflow-hidden z-10 px-[80px] py-[100px]"
     >
       <div className="flex flex-col gap-[46px]  text-white">
         <h1 className="md:text-[100px] text-[50px] font-bold">/About</h1>
