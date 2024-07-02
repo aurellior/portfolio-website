@@ -116,7 +116,7 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
-          <a href="https://yflix-web-streaming.vercel.app/" target="_blank">
+          <a href="https://rent-car-aurellio.vercel.app/" target="_blank">
             <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto5}
@@ -124,13 +124,15 @@ const Projects = () => {
               />
               <div className="flex flex-col gap-[10px]">
                 <div className="flex gap-[18px] items-center">
-                  <h1 className="text-white text-[20px] font-medium">Yflix</h1>
+                  <h1 className="text-white text-[20px] font-medium">
+                    Rent Car
+                  </h1>
                   <div className="text-white text-[14px] bg-[#ED4C51] rounded-full py-[8px] px-[14px] flex items-center">
                     <p>Personal Project</p>
                   </div>
                 </div>
                 <p className="text-[#8B8689] md:text-[18px] text-[14px]">
-                  HTML, CSS
+                  HTML, CSS, Javascript, ReactJS, Tailwind
                 </p>
               </div>
             </div>
