@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Cv from "../Document/Cv.pdf";
 
 const Hero = () => {
   return (
@@ -18,11 +19,7 @@ const Hero = () => {
               </h1>
             </h1>
           </div>
-          <a
-            className=""
-            href="https://drive.google.com/file/d/1Z3ElimXNf_Ai5cEsWpzOuUxYoOHIOzx7/view?usp=sharing"
-            target="_blank"
-          >
+          <a className="" href={Cv} target="_blank">
             <div className="mt-[60px] relative bg-black flex overflow-x-hidden order-2 border-2 border-[#252525] rounded-lg hover:bg-white  hover:text-transparent text-white">
               <div className="p-2 animate-marquee3 whitespace-nowrap text-black">
                 <p className="text-xl mx-4">View Resume</p>
