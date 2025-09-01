@@ -22,13 +22,12 @@ const About = () => {
 
           <div className="flex flex-col md:text-[20px] text-[14px] gap-4 text-justify items-center justify-center ">
             <p>
-              I'm Aurellio, a bachelor of Computer Science student with skill of
-              programming to deliver an immersive and engaging user experience
-              through efficient website development. Proficient with HTML, CSS
-              and Javascript, with extensive knowledge of Front-End and UI/UX
-              Design. Seeking to use proven skills especially in React.js to
-              drive innovation with the ability to follow industry and
-              technological trends.
+              Hi, I’m Aurellio — a Computer Science graduate passionate about
+              creating immersive and engaging user experiences through efficient
+              web development. Skilled in HTML, CSS, and JavaScript, with strong
+              expertise in Front-End and UI/UX Design. Proficient in React.js, I
+              aim to deliver innovative solutions while staying aligned with the
+              latest industry and technology trends.
             </p>
           </div>
         </div>

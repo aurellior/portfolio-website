@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Cv from "../Document/Cv.pdf";
+import Cv from "../Document/CV_Aurellio Dhiya Wisnu Rajendra.pdf";
 
 const Hero = () => {
   return (
