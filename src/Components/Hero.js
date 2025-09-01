@@ -15,7 +15,7 @@ const Hero = () => {
             <h1 className="flex flex-row gap-3">
               a
               <h1 className="text-[#ED4C51] font-bold animate-typing  overflow-hidden whitespace-nowrap border-r-4 border-r-white ">
-                {"<frontendDeveloper/>"}
+                {"<FrontendDeveloper/>"}
               </h1>
             </h1>
           </div>
