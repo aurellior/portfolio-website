@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Logo from "../img/logo.png";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // State to manage the navbar's visibility

@@ -23,7 +23,11 @@ const Footer = () => {
         </div>
 
         <div className="grid md:grid-cols-4 gap-10 grid-cols-1 items-center ">
-          <a href="mailto: aurelliorr@gmail.com" target="_blank">
+          <a
+            href="mailto: aurelliorr@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <IconContext.Provider value={{ color: "white", size: "46px" }}>
               <div className="flex items-center ">
                 <CgMail />
@@ -34,6 +38,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/aurelliorajendra/"
             target="_blank"
+            rel="noreferrer"
           >
             <IconContext.Provider value={{ color: "white", size: "46px" }}>
               <div className="flex items-center ">
@@ -42,7 +47,7 @@ const Footer = () => {
               </div>
             </IconContext.Provider>
           </a>
-          <a href="https://github.com/aurellior" target="_blank">
+          <a href="https://github.com/aurellior" target="_blank" rel="noreferrer">
             <IconContext.Provider value={{ color: "white", size: "46px" }}>
               <div className="flex items-center ">
                 <FaGithub />
@@ -50,7 +55,11 @@ const Footer = () => {
               </div>
             </IconContext.Provider>
           </a>
-          <a href="https://www.instagram.com/aurellior/" target="_blank">
+          <a
+            href="https://www.instagram.com/aurellior/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <IconContext.Provider value={{ color: "white", size: "46px" }}>
               <div className="flex items-center ">
                 <FaInstagram />
@@ -156,94 +165,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-{
-  /* <div className="relative flex  overflow-x-hidden mt-auto ">
-        <div className="flex items-center py-5  animate-marquee whitespace-nowrap md:text-[60px] text-[60px] font-extrabold text-[#E3E4DC]">
-          <span>
-            <img src={Text1} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>
-          </span>
-
-          <span>
-            <img src={Text2} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>{" "}
-          </span>
-          <span>
-            <img src={Text1} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>{" "}
-          </span>
-          <span>
-            <img src={Text2} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>{" "}
-          </span>
-        </div>
-
-        <div className="flex items-center py-5 absolute top-0 animate-marquee2 whitespace-nowrap md:text-[60px] text-[60px] mx-4 font-extrabold text-[#E3E4DC]">
-          <span>
-            <img src={Text1} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>
-          </span>
-          <span>
-            <img src={Text2} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>{" "}
-          </span>
-          <span>
-            <img src={Text1} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>{" "}
-          </span>
-          <span>
-            <img src={Text2} className="w-[400px]" />{" "}
-          </span>
-          <span>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-              <div className="flex items-center px-[20px]">
-                <TbBrandValorant />
-              </div>
-            </IconContext.Provider>{" "}
-          </span>
-        </div>
-      </div> */
-}

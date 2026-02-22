@@ -1,8 +1,4 @@
-import React from "react";
-import { useState } from "react";
-import ButtonBg from "../img/button.png";
-import ButtonBg2 from "../img/button1.png";
-import ButtonUp from "../img/button2.png";
+import React, { useState } from "react";
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);

@@ -14,10 +14,10 @@ const Skills = () => {
     <div className="sticky z-10 bg-[#ED4C51] overflow-hidden py-[100px] px-[80px]">
       <div className=" flex flex-col items-center justify-center gap-[100px]">
         <div className="absolute italic text-white/[.03] z-0 md:text-[500px] text-[200px] font-extrabold">
-          //SKILLS//
+          {"//SKILLS//"}
         </div>
         <h1 className="text-white font-bold md:text-[80px] text-[50px] z-10">
-          //SKILLS//
+          {"//SKILLS//"}
         </h1>
         <div className="grid md:grid-cols-4 grid-cols-1 gap-[70px] z-10">
           <IconContext.Provider value={{ color: "white", size: "80px" }}>

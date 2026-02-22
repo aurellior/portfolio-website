@@ -3,8 +3,6 @@ import Porto1 from "../img/porto1.png";
 import Porto2 from "../img/porto2.png";
 import Porto3 from "../img/porto3.png";
 import Porto4 from "../img/porto4.png";
-import Porto5 from "../img/porto5.png";
-import Porto6 from "../img/porto6.png";
 import Curcool from "../img/curcool.png";
 import TravelAssistant from "../img/travel-assistant.webp";
 
@@ -19,10 +17,11 @@ const Projects = () => {
       </h1>
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[10px]">
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
-          <a href="https://curcool.com/" target="_blank">
+          <a href="https://curcool.com/" target="_blank" rel="noreferrer">
             <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Curcool}
+                alt="Curcool project preview"
                 className="h-[380px] md:w-[350px] 2xl:w-[500px] w-[300px] rounded-lg object-contain bg-neutral-900"
               />
               <div className="flex flex-col gap-[10px]">
@@ -46,10 +45,12 @@ const Projects = () => {
           <a
             href="https://play.google.com/store/apps/details?id=com.telkomsel.telkomselcm&pcampaignid=web_share"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={TravelAssistant}
+                alt="AI Travel Assistant project preview"
                 className="h-[380px] md:w-[350px] 2xl:w-[500px]  w-[300px] rounded-lg object-contain bg-neutral-900"
               />
               <div className="flex flex-col gap-[10px]">
@@ -70,10 +71,15 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100">
-          <a href="https://anugrahsahabatjaya.com/" target="_blank">
+          <a
+            href="https://anugrahsahabatjaya.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto1}
+                alt="Anugrah Sahabat Jaya project preview"
                 className="h-[380px] md:w-[350px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
@@ -94,10 +100,15 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
-          <a href="https://pokemon-hazel-omega.vercel.app/" target="_blank">
+          <a
+            href="https://pokemon-hazel-omega.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="flex flex-col lg:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto2}
+                alt="Pokemon project preview"
                 className="h-[380px] md:w-[350px] 2xl:w-[500px]  w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
@@ -121,10 +132,12 @@ const Projects = () => {
           <a
             href="https://final-project-react-kappa.vercel.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto3}
+                alt="Yu-Gi-Oh project preview"
                 className="h-[380px] md:w-[350px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
@@ -145,10 +158,15 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center items-center mb-[24px] hover:bg-white/[.1] rounded-lg p-8 duration-100 ">
-          <a href="https://mading-jwp.vercel.app/homeadmin" target="_blank">
+          <a
+            href="https://mading-jwp.vercel.app/homeadmin"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="flex flex-col md:w-[350px] 2xl:w-[500px] w-[300px] gap-[24px] rounded-lg">
               <img
                 src={Porto4}
+                alt="Mading JWP project preview"
                 className="h-[380px] md:w-[350px] 2xl:w-[500px] w-[300px] rounded-lg object-cover"
               />
               <div className="flex flex-col gap-[10px]">
